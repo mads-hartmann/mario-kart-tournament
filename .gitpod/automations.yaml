@@ -1,0 +1,8 @@
+services:
+    backend:
+        name: Backend Service
+        description: Example service simulating a backend
+        commands:
+            start: python3 main.py
+        triggeredBy:
+            - manual

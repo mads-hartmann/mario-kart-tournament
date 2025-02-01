@@ -1,0 +1,20 @@
+{
+	"name": "Development setup",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"forwardPorts": [5000],
+	"portsAttributes": {
+		"5000": {
+			"label": "webserver",
+			"onAutoForward": "notify"
+		}
+	},
+	"postCreateCommand": "pip3 install -r install/requirements.txt"
+}
