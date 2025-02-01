@@ -16,5 +16,6 @@
 			"onAutoForward": "notify"
 		}
 	},
+	"runArgs": ["--network=host"],
 	"postCreateCommand": "pip3 install -r install/requirements.txt"
 }
