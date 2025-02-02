@@ -1,7 +1,7 @@
 services:
     backend:
-        name: Backend Service
-        description: Example service simulating a backend
+        name: Mario Kart Tournament
+        description: Python app running on port 5000
         commands:
             start: python3 main.py
         triggeredBy:
